@@ -1,3 +1,4 @@
+#filename: auth_spec.rb
 require_relative '../auth'
 
 describe "Authクラス" do
