@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 # coding: utf-8
 
+# filename: logger.rb
 require 'logger'
 
 # ログを出力するだけのクラス
