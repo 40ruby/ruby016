@@ -36,7 +36,7 @@ class Auth
   # == 返り値
   # 識別された場合:: 登録されているIPアドレス
   # 否認された場合:: false
-  def proof(key)
+  def varid(key)
     return @key_list[key] if @key_list.has_key?(key)
     return false
   end

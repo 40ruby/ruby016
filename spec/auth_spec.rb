@@ -27,7 +27,7 @@ describe "Authクラス" do
     end
   end
 
-  describe "#proof メソッド" do
+  describe "#varid メソッド" do
     before do
       @a   = Auth.new
       @key = []
@@ -38,7 +38,7 @@ describe "Authクラス" do
     context "正常に登録されている場合" do
       it 'IPアドレスと登録されているコードがマッチしている' do
         0.step(10) do |num|
-          expect(@a.proof(@key[num])).to eq("192.168.0.#{num}")
+          expect(@a.varid(@key[num])).to eq("192.168.0.#{num}")
         end
       end
     end
